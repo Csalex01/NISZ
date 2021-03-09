@@ -146,7 +146,7 @@ export default {
 					this.error = false
 				} catch (err) {
 					this.error = true
-					this.msg = err
+					this.msg = err.message
 					this.msgType = "warning"
 					this.msgTitle = "Figyelem!"
 				}

@@ -4,6 +4,7 @@ import Index from '../views/Index.vue'
 
 import Login from "../views/Login.vue"
 import Signup from "../views/Signup.vue"
+import Templates from "../views/Templates.vue"
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/signup',
     name: 'Signup',
     component: Signup
+  },
+  {
+    path: '/templates',
+    name: 'Templates',
+    component: Templates
   }
 ]
 

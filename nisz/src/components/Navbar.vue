@@ -19,6 +19,7 @@
         
         <div class="navbar-start">
           <router-link :to="{name: 'Index'}" class="navbar-item">Kezdőlap</router-link>
+          <router-link :to="{name: 'Templates'}" class="navbar-item">Sablonok</router-link>
         </div>
 
         <div class="navbar-end">
